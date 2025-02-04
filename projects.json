@@ -1,0 +1,39 @@
+[
+    {
+        "title": "RECRUITid",
+        "description": "A startup I co-founded that empowers athletes to take charge of their recruitment.",
+        "tags": ["Python", "JavaScript", "Full-Stack"],
+        "coverImage": "recruitid.png",
+        "links": [
+            {
+                "label": "Visit website",
+                "url": "https://www.recruitid.net"
+            }
+        ],
+        "article": {
+            "bannerImage": "recruitid-cover.jpg",
+            "markdown": "recruitid.md"
+        }
+    },
+    {
+        "title": "A-Star Maps",
+        "description": "A visualization of the A-Star pathfinding algorithm on data fetched from Open Street Maps",
+        "tags": ["JavaScript", "Algorithms", "APIs"],
+        "coverImage": "a-star.png",
+        "links": [
+            {
+                "label": "source code",
+                "url": "https://github.com/natedog2424/OpenStreetMapAStar"
+            },
+            {
+                "label": "live demo",
+                "url": "https://natedog2424.github.io/OpenStreetMapAStar/"
+            }
+        ],
+        "article": {
+            "bannerImage": "a-star-cover.jpg",
+            "markdown": "a-star.md"
+        },
+        "embed": "https://natedog2424.github.io/OpenStreetMapAStar/"
+    }
+]

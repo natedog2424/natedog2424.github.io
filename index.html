@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en" class="theme-root paper-style accent-red fade-in">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css"
+        integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/grids-responsive-min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="script.js" defer></script>
+    <title>Nathan Anderson Developer Portfolio</title>
+</head>
+
+<body>
+    <div class="card-container">
+        <div class="card wide" style="display: flex; flex-direction: column; justify-content: space-around;">
+            <h2 style="text-align: center; margin: 0;">~ <span id="greeting" style="--animated-color: rgba(var(--text-rgb), 1);"></span>, I’m <span class="text-accent"><i>Nathan</i></span> ~</h2>
+            <div style="display: flex; align-items: center;">
+                <img class="pure-img" style="aspect-ratio: 1; width: 25%;" src="images/profile.png">
+                <span>I’m an engineer with a passion for creating <span class="text-accent" style="text-wrap: nowrap;"><b id="adjective" style="--animated-color: rgba(var(--accent), 1);">innovative</b></span>
+                    solutions. I’m interested in Full-Stack Web, Native iOS, Product Design, Computer Graphics, Embedded Devices, and Game
+                    Development.</span>
+            </div>
+            <div style="display: flex; align-items: center; justify-content: center; margin-top: 0.5rem;">
+                <a class="link-button" href="https://www.linkedin.com/in/nathananderson24/">LinkedIn</a>
+                <a class="link-button" href="https://github.com/natedog2424">GitHub</a>
+                <a class="link-button" href="/resume.pdf">Résumé</a>
+                <a class="link-button" href="mailto:nathan.anderson24@icloud.com">Email me</a>
+            </div>
+        </div>
+        <div class="card">
+            <div style="display: flex; flex-direction: column; justify-content: space-between; height: 100%;">
+                <span>Beyond coding, I enjoy...</span>
+                <div class="text-accent" style="margin-top: 3rem; --animated-color: rgba(var(--accent), 1);">
+                    <i>
+                        <h3 id="interest-1" style="margin: 0 0.25rem; font-size: 1.4rem;"></h3>
+                        <h3 id="interest-2" style="margin: 0 0.25rem; font-size: 1.4rem;"></h3>
+                        <h3 id="interest-3" style="margin: 0 0.25rem; font-size: 1.4rem;"></h3>
+                    </i>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div style="display: flex; flex-direction: column; justify-content: space-between; height: 100%;">
+                <div>
+                    <div>
+                        <h4 style="margin: 0 0 0.5rem 0; font-size: 1.5rem;">Set Accent</h4>
+                        <p class="subtitle">Click a color</p>
+                    </div>
+                    <div style="display: flex;">
+                        <button class="accent-select-button accent-red" style="background-color: rgba(var(--red-accent), 1);"
+                            onclick="setAccent('red');"></button>
+                        <button class="accent-select-button accent-blue" style="background-color: rgba(var(--blue-accent), 1);"
+                            onclick="setAccent('blue');"></button>
+                        <button class="accent-select-button accent-green" style="background-color:rgba(var(--green-accent), 1);"
+                            onclick="setAccent('green');"></button>
+                    </div>
+                </div>
+
+                <a style="text-align: end;" class="text-accent" href="javascript:nextTheme();">
+                    <h3 style="margin: 0;"><i>Next Design</i></h3>
+                </a>
+            </div>
+        </div>
+        <div class="card force-square">
+            <div style="display: flex; flex-direction: column; justify-content: space-between; height: 100%; align-items: flex-start;">
+
+                <div class="circular-text-container has-card-background" style="position: relative;">
+                    <svg class="circular-text" viewBox="0 0 300 300">
+                        <path id="circle-path" d="M 150,150 m -100,0 a 100,100 0 1,1 200,0 a 100,100 0 1,1 -200,0"
+                            fill="none" />
+                        <text>
+                            <textPath href="#circle-path" textLength="618">
+                                Computer Systems Engineering BE · 2025 · 3.9 GPA ·
+                            </textPath>
+                        </text>
+                    </svg>
+                    <img class="pure-img styled-image" style="aspect-ratio: 1;width: 60%;top: 50%;left: 50%;position: absolute;transform: translate(-50%, -50%);" src="images/asu-logo.png">
+                </div>
+                <span>I will be graduating with a bachelors in computer engineering in May of 2025</span>
+            </div>
+        </div>
+        <div class="card no-padding force-square">
+            <div class="has-card-background" style="display: flex; flex-direction: column; justify-content: space-between; height: 100%;">
+                <div class="styled-image" style="flex-grow: 1; background-image: url('images/location.png'); background-size: cover;"></div>
+                <div class="card-subtitle">
+                    I’m currently located in Arizona, but l’m looking to relocate
+                </div>
+            </div>
+        </div>
+        <div class="card wide clip">
+            <div style="display: flex; flex-direction: column; justify-content: space-around; height: 100%;">
+                <div>
+                    <h2 style="margin: 0; font-size: 1.5rem;">Tools, Languages, and Skills</h2>
+                    <p class="subtitle">Click to filter projects</p>
+                </div>
+                <div id="skill-lists">
+                    <div id="skill-list-1" style="display: flex;" class="scrolling-list">
+
+                    </div>
+                    <div id="skill-list-2" style="display: flex;" class="scrolling-list reversed">
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+</body>
+<template id="project-template">
+    <div class="card wide clip project">
+        <div style="display: flex; flex-direction: row; height: 100%;" class="has-card-background">
+            <img id="project-image" class="pure-img styled-image project-image" src="images/recruitid.png">
+            <div style="min-width: 0; display: flex; flex-direction: column; justify-content: space-between; height: 100%; flex-grow: 1;">
+                <div style="display: flex; justify-content: end;">
+                    <button class="icon-button" style="stroke-width: 3px;" onclick="openModal(this)">
+                        <span>Read more</span>
+                        <svg style="height: 20px;" clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M16 8v-4l8 8-8 8v-4h-5v-8h5zm-7 0h-2v8h2v-8zm-4.014 0h-1.986v8h1.986v-8zm-3.986 0h-1v8h1v-8z"/></svg>
+                    </button>
+                </div>
+                <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-evenly;">
+                    <div>
+                        <h2 id="project-title" style="margin: 0 0 0.5rem 0; font-size: 1.5rem;"></h2>
+                        <p id="project-description" style="padding-right: 0.5rem; margin: 0;" class=""></p>
+                    </div>
+                    <div id="project-tags" style="display: flex; overflow-x: scroll; scrollbar-color: rgba(0, 0, 0, 0.131) transparent; scrollbar-width: none; margin-left: -0.5rem; min-height: fit-content;">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>
+
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <div id="modal-header" class="modal-header">
+            <img id="modal-image" class="modal-image" src="images/recruitid.png">
+            <div class="modal-tint"></div>
+            <span class="close-button" onclick="closeModal()">&times;</span>
+            <h2 id="modal-title" style="z-index: 5; margin: 0 0 0 1rem;"></h2>
+        </div>
+
+        <div class="modal-body">
+            <span id="modal-tags"></span>
+            <div id="modal-links" class="modal-links"></div>
+            <div id="embed-container"></div>
+            <div id="modal-content"></div>
+        </div>
+    </div>
+</div>
+
+</html>
