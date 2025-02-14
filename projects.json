@@ -35,5 +35,26 @@
             "markdown": "a-star.md"
         },
         "embed": "https://natedog2424.github.io/OpenStreetMapAStar/"
+    },
+    {
+        "title": "Edit Distance Animation",
+        "description": "Apple-inspired animation using edit distance between strings",
+        "tags": ["JavaScript", "Algorithms", "CSS"],
+        "coverImage": "edit-distance.jpg",
+        "links": [
+            {
+                "label": "source code",
+                "url": "https://github.com/natedog2424/EditDistanceAnimation"
+            },
+            {
+                "label": "live demo",
+                "url": "https://natedog2424.github.io/EditDistanceAnimation/"
+            }
+        ],
+        "article": {
+            "bannerImage": "edit-distance.jpg",
+            "markdown": "edit-distance.md"
+        },
+        "embed": "https://natedog2424.github.io/EditDistanceAnimation/"
     }
 ]
