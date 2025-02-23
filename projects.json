@@ -27,14 +27,14 @@
             },
             {
                 "label": "live demo",
-                "url": "https://natedog2424.github.io/OpenStreetMapAStar/"
+                "url": "https://nd24.is-a.dev/OpenStreetMapAStar/"
             }
         ],
         "article": {
             "bannerImage": "a-star-cover.jpg",
             "markdown": "a-star.md"
         },
-        "embed": "https://natedog2424.github.io/OpenStreetMapAStar/"
+        "embed": "https://nd24.is-a.dev/OpenStreetMapAStar/"
     },
     {
         "title": "Edit Distance Animation",
@@ -48,13 +48,13 @@
             },
             {
                 "label": "live demo",
-                "url": "https://natedog2424.github.io/EditDistanceAnimation/"
+                "url": "https://nd24.is-a.dev/EditDistanceAnimation/"
             }
         ],
         "article": {
             "bannerImage": "edit-distance.jpg",
             "markdown": "edit-distance.md"
         },
-        "embed": "https://natedog2424.github.io/EditDistanceAnimation/"
+        "embed": "https://nd24.is-a.dev/EditDistanceAnimation/"
     }
 ]
