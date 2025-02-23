@@ -1,7 +1,7 @@
 [
     {
         "title": "RECRUITid",
-        "description": "A startup I co-founded that empowers athletes to take charge of their recruitment.",
+        "description": "A startup I co-founded that empowers athletes to take charge of their recruitment",
         "tags": ["Python", "JavaScript", "Full-Stack"],
         "coverImage": "recruitid.png",
         "links": [
@@ -56,5 +56,58 @@
             "markdown": "edit-distance.md"
         },
         "embed": "https://nd24.is-a.dev/EditDistanceAnimation/"
+    },
+    {
+        "title": "Multiplayer card game",
+        "description": "6 card golf card game implemented in C++ using sockets",
+        "tags": ["C++", "Networks"],
+        "coverImage": "socketgame.png",
+        "links": [
+            {
+                "label": "source code",
+                "url": "https://github.com/natedog2424/SocketProgrammingProject"
+            }
+        ],
+        "article": {
+            "bannerImage": "socketgame-cover.jpg",
+            "markdown": "This project was created for my computer networks course. It demonstrates the use of sockets in C++ to execute a peer to peer multiplayer game. The project taught me a lot about how computer networks work as well as how to design protocls for communication between programs over a network."
+        }
+    },
+    {
+        "title": "Maze Game",
+        "description": "6 card golf card game implemented in C++ using sockets",
+        "tags": ["GLSL", "WebGL", "JavaScript"],
+        "coverImage": "mazegame.jpg",
+        "links": [
+            {
+                "label": "source code",
+                "url": "https://github.com/natedog2424/WebGLMazeGame"
+            },
+            {
+                "label": "live demo",
+                "url": "https://nd24.is-a.dev/WebGLMazeGame"
+            }
+        ],
+        "article": {
+            "bannerImage": "mazegame.jpg",
+            "markdown": "mazegame.md"
+        },
+        "embed" : "https://nd24.is-a.dev/WebGLMazeGame"
+    },
+    {
+        "title": "Blackjack SwiftUI",
+        "description": "A blackjack game made in SwiftUI",
+        "tags": ["Swift", "Mobile"],
+        "coverImage": "blackjack.jpg",
+        "links": [
+            {
+                "label": "source code",
+                "url": "https://github.com/natedog2424/SwiftUI-BlackJack"
+            }
+        ],
+        "article": {
+            "bannerImage": "blackjack-cover.jpg",
+            "markdown": "This project is a demonstration of some of the things I learned while taking the 100 days of SwiftUI course. As I continiued with each day of the course I went back to this project to try and implement my learnings on a project that I enjoy working on."
+        }
     }
 ]
