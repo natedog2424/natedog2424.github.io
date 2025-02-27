@@ -75,7 +75,7 @@
     },
     {
         "title": "Maze Game",
-        "description": "6 card golf card game implemented in C++ using sockets",
+        "description": "A maze game made with WebGL",
         "tags": ["GLSL", "WebGL", "JavaScript"],
         "coverImage": "mazegame.jpg",
         "links": [
