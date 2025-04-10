@@ -16,6 +16,30 @@
         }
     },
     {
+        "title": "Career XRCade",
+        "description": "A VR application sponsored by verizon learning",
+        "tags": ["Unity", "C#"],
+        "coverImage": "xrcade.webp",
+        "links": [
+            {
+                "label": "Play on the web",
+                "url": "https://www.verizon.com/learning/career-xrcade"
+            },
+            {
+                "label": "Meta store - Cybersecurity",
+                "url": "https://www.meta.com/experiences/career-xrcade-cybersecurity/8643279985694082/"
+            },
+            {
+                "label": "Meta store - Esports",
+                "url": "https://www.meta.com/experiences/career-xrcade-esports/7718663664902775/"
+            }
+        ],
+        "article": {
+            "bannerImage": "xrcade-cover.jpg",
+            "markdown": "xrcade.md"
+        }
+    },
+    {
         "title": "A-Star Maps",
         "description": "A visualization of the A-Star pathfinding algorithm on data fetched from Open Street Maps",
         "tags": ["JavaScript", "Algorithms", "APIs"],
